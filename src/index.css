@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  background-color: rgb(203, 239, 243);
+  color:rgb(101, 104, 105);
+  font-weight: bold;
+}
+
+.container {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 500px;
+  border: 3px solid white;
+  width: 900px;
+  border-radius: 15px;
+}
+
+/* for calculation */
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  /* width: 600px; */
+ 
+}
+
+nav {
+  display: flex;
+  gap: 120px;
+  flex-direction: row;
+}
+
+h2 {
+  color: rgb(7, 7, 105);
+}
+
+p {
+  color: rgb(32, 32, 91);
+  margin-top: 27px;
+  border-bottom: 2px solid black;
+ }
+
+p:hover {
+  color: blue;
+  border-bottom: 1px solid rgb(65, 65, 129);
+}
+button, p {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.align {
+  display: flex;
+  border: 1px solid rgb(87, 87, 122);
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 40px;
+  
+}
+
+.span {
+  background-color: rgb(203, 239, 243);
+  width: 40px;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding:5px;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.column {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  gap: 90px;
+}
+
+.mortageterm {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligns {
+  display: flex;
+  border: 1px solid rgb(33, 33, 92);
+  border-radius: 5px;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+
+}
+
+.term {
+  padding: 10px;
+  margin: 1px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb(203, 239, 243)
+}
+
+.input {
+  background: transparent;
+  width: 90px;
+  text-align: left;
+  
+}
+.check{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.type{
+  margin-top:10px;
+  display: flex;
+  gap:15px;
+  border: 1px solid rgb(67, 67, 105);
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgb(92, 92, 104);
+  border-radius: 50%; 
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background-color: black; 
+}
+button{
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgb(194, 194, 39);
+  border: none;
+  color: rgb(45, 46, 69);
+  font-weight: bold;
+}
+
+
+/* for the result */
+.result {
+  background-color: rgb(14, 22, 72);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-radius:0  0  0 70px ;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
